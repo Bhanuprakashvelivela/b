@@ -76,9 +76,9 @@ ul {
 .theme-btn {
     background: var(--primary_color);
     color: #000000;
-    display: inline-block;
+    display: block;
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 58px 10px 58px;
     display: inline-flex;
     align-items: center;
     border-radius: 50px;
