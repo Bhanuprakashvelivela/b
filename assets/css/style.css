@@ -833,6 +833,8 @@ body .body-overlay {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    background-size: cover;
+    overflow: hidden;
 }
 .home2-page .body-overlay,
 .home3-page .body-overlay {
