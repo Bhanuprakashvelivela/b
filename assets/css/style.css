@@ -886,8 +886,21 @@ p {
   text-align: justify;
 }
 
-/* 11 - Resume */
+/* 10 - About */
 .resume-area {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.resume-area .resume-content p {
+  line-height: 30px;
+  max-width: 610px;
+}
+p {
+  text-align: justify;
+}
+
+/* 11 - Resume */
+/* .resume-area {
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -951,10 +964,7 @@ p {
 }
 .resume-area .resume-content .resume-timeline .item:hover .date {
   color: var(--primary_color);
-}
-p {
-  text-align: justify;
-}
+} */
 
 /* 12 - Services */
 .services-area {
