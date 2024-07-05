@@ -942,6 +942,7 @@ p {
     font-size: 13px;
     color: #999999;
     margin-bottom: 18px;
+    text-align: justify;
 }
 .resume-area .resume-content .resume-timeline .item p:last-child {
     margin-bottom: 0;
@@ -953,24 +954,30 @@ p {
     color: var(--primary_color);
 } */
 
-/* Resume */
+/*  Resume */
 .resume-area {
   padding-top: 90px;
   padding-bottom: 90px;
+  text-align: center; /* Center text align for resume area */
 }
 .resume-area .resume-content {
   max-width: 610px;
   margin: 0 auto;
+  text-align: left; /* Reset text align for content */
 }
 .resume-area .resume-content p {
   line-height: 30px;
   text-align: justify;
 }
-.resume-area .resume-content .resume-timeline .item {
+.resume-area .resume-content .resume-timeline {
   position: relative;
   padding-left: 20px;
+}
+.resume-area .resume-content .resume-timeline .item {
+  padding-left: 54px;
   padding-bottom: 30px;
   margin-bottom: 30px;
+  position: relative;
 }
 .resume-area .resume-content .resume-timeline .item:last-child {
   padding-bottom: 0;
@@ -982,7 +989,7 @@ p {
   width: 1px;
   height: 100%;
   position: absolute;
-  left: 0;
+  left: 20px; /* Adjusted for better centering */
   top: 10px;
   z-index: -1;
 }
@@ -993,7 +1000,7 @@ p {
   height: 12px;
   background: #656565;
   border-radius: 50%;
-  left: -6px;
+  left: 14px; /* Adjusted for better centering */
   top: 7px;
   transition: 0.3s;
 }
