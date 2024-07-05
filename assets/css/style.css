@@ -942,6 +942,7 @@ p {
   font-size: 13px;
   color: #999999;
   margin-bottom: 18px;
+  text-align: justify;
 }
 .resume-area .resume-content .resume-timeline .item p:last-child {
   margin-bottom: 0;
