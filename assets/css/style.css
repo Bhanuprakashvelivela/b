@@ -886,102 +886,22 @@ p {
   text-align: justify;
 }
 
-/* 11 - Resume
-.resume-area {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-.resume-area .resume-content .resume-timeline .item {
-    position: relative;
-    padding-left: 74px;
-    padding-bottom: 68px;
-}
-.resume-area .resume-content .resume-timeline .item:last-child {
-    padding-bottom: 0;
-}
-.resume-area .resume-content .resume-timeline .item:last-child::after {
-    height: calc(100% - 10px);
-}
-.resume-area .resume-content .resume-timeline .item::after {
-    content: '';
-    background: #333333;
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 10px;
-    z-index: -1;
-}
-.resume-area .resume-content .resume-timeline .item::before {
-    content: '';
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    background: #656565;
-    border-radius: 50%;
-    left: -6px;
-    top: 7px;
-    transition: .3s;
-}
-.resume-area .resume-content .resume-timeline .item .date {
-    display: block;
-    margin-bottom: 28px;
-    transition: .3s;
-}
-.resume-area .resume-content .resume-timeline .item h2 {
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 5px;
-    color: #fff;
-}
-.resume-area .resume-content .resume-timeline .item h2 a {
-    color: #fff;
-    display: block;
-}
-.resume-area .resume-content .resume-timeline .item p {
-    font-size: 13px;
-    color: #999999;
-    margin-bottom: 18px;
-    text-align: justify;
-}
-.resume-area .resume-content .resume-timeline .item p:last-child {
-    margin-bottom: 0;
-}
-.resume-area .resume-content .resume-timeline .item:hover::before {
-    background: var(--primary_color);
-}
-.resume-area .resume-content .resume-timeline .item:hover .date {
-    color: var(--primary_color);
-} */
-
-/*  Resume */
+/* 11 - Resume */
 .resume-area {
   padding-top: 90px;
   padding-bottom: 90px;
-  text-align: center; /* Center text align for resume area */
-}
-.resume-area .resume-content {
-  max-width: 610px;
-  margin: 0 auto;
-  text-align: left; /* Reset text align for content */
-}
-.resume-area .resume-content p {
-  line-height: 30px;
-  text-align: justify;
-}
-.resume-area .resume-content .resume-timeline {
-  position: relative;
-  padding-left: 20px;
 }
 .resume-area .resume-content .resume-timeline .item {
-  padding-left: 54px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  position: relative;
+  /* position: relative; */
+  text-align: justify;
+  padding-left: 74px;
+  padding-bottom: 68px;
 }
 .resume-area .resume-content .resume-timeline .item:last-child {
   padding-bottom: 0;
-  margin-bottom: 0;
+}
+.resume-area .resume-content .resume-timeline .item:last-child::after {
+  height: calc(100% - 10px);
 }
 .resume-area .resume-content .resume-timeline .item::after {
   content: "";
@@ -989,7 +909,7 @@ p {
   width: 1px;
   height: 100%;
   position: absolute;
-  left: 20px; /* Adjusted for better centering */
+  left: 0;
   top: 10px;
   z-index: -1;
 }
@@ -1000,7 +920,7 @@ p {
   height: 12px;
   background: #656565;
   border-radius: 50%;
-  left: 14px; /* Adjusted for better centering */
+  left: -6px;
   top: 7px;
   transition: 0.3s;
 }
@@ -1033,6 +953,9 @@ p {
 }
 .resume-area .resume-content .resume-timeline .item:hover .date {
   color: var(--primary_color);
+}
+p {
+  text-align: justify;
 }
 
 /* 12 - Services */
