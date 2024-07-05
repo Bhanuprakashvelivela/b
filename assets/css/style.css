@@ -893,7 +893,6 @@ p {
 }
 .resume-area .resume-content .resume-timeline .item {
   /* position: relative; */
-  text-align: justify;
   padding-left: 74px;
   padding-bottom: 68px;
 }
@@ -943,7 +942,6 @@ p {
   font-size: 13px;
   color: #999999;
   margin-bottom: 18px;
-  text-align: justify;
 }
 .resume-area .resume-content .resume-timeline .item p:last-child {
   margin-bottom: 0;
