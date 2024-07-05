@@ -892,7 +892,7 @@ p {
   padding-bottom: 90px;
 }
 .resume-area .resume-content .resume-timeline .item {
-  /* position: relative; */
+  position: relative;
   padding-left: 74px;
   padding-bottom: 68px;
 }
